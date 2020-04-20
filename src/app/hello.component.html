@@ -1,0 +1,5 @@
+<div>
+  <span>Hello Component '{{name}}'</span>
+  <input type="checkbox" [checked]="isDisplay" (change)="toggleVisibility($event)"/>
+  <hello-child [name]= childname [disabled]="isDisplay"  ></hello-child>
+</div>
