@@ -23,11 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/bootstrap.min.css"
+              //"src/styles.css",
+              //"src/bootstrap.min.css"
             ],
-            "scripts": ["src/dist/jquery.js",
-            "src/dist/bootstrap.js"]
+            "scripts": [
+              //"src/dist/jquery.js",
+            //"src/dist/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
